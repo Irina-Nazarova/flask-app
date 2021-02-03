@@ -56,8 +56,8 @@ jobs:
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
-          source: "docker-compose.yaml, nginx/default.conf"
-          target: "~/app/"
+          #source: "docker-compose.yaml, nginx/default.conf"
+          #target: "~/app/"
           script: |
             sudo docker pull irinanazarova/flask-app
             sudo docker stop $(sudo docker ps -a -q)

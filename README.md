@@ -8,7 +8,9 @@ Workflow — это набор команд, которые выполнятся
    
 1. Зайдите в свой репозиторий на GitHub, перейдите во вкладку Actions, для 
    создания директории .github/workflows с шаблоном main.yml нажмите ссылку
-   set up a workflow yourself
+   set up a workflow yourself.
+   
+   Нажмите зеленую кнопку Start commit, дайте имя коммиту и нажмите Commit new file.
    
 2. Перейдите в настройки репозитория Settings-Secrets-New secret
    
